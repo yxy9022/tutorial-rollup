@@ -1,0 +1,25 @@
+{
+  "name": "tutorial-rollup",
+  "version": "1.0.0",
+  "description": "rollup 官网：https://rollupjs.org/   中文文档：https://www.rollupjs.com/   github: https://github.com/rollup/rollup",
+  "main": ".prettierrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yxy9022/tutorial-rollup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yxy9022/tutorial-rollup/issues"
+  },
+  "homepage": "https://github.com/yxy9022/tutorial-rollup#readme",
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "rollup": "^4.30.1"
+  }
+}
