@@ -1,0 +1,15 @@
+{
+  "name": "rollup01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:iife & npm run build:cjs & npm run build:esm & npm run build:umd",
+    "build:iife": "rollup src/main.js --file dist/bundle.browser.js --format iife",
+    "build:cjs": "rollup src/main.js --file dist/bundle.cjs.js --format cjs",
+    "build:esm": "rollup src/main.js --file dist/bundle.esm.js --format esm",
+    "build:umd": "rollup src/main.js --file dist/bundle.umd.js --format umd --name \"myBundle\""
+  },
+  "author": "",
+  "license": "ISC"
+}
