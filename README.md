@@ -94,3 +94,7 @@ npm install vue@2
 
 npm install rollup-plugin-vue vue-template-compiler@2 -D
 ```
+
+### rollup09
+
+- 打包并进行 tree-shaking
